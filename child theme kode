@@ -1,0 +1,145 @@
+
+
+.has-ast-global-color-5-color {
+	text-transform: none;
+}
+
+.site-footer a:hover{
+	text-decoration: underline;
+}
+
+
+.woocommerce-shop{
+	background-color: white;
+}
+
+.page-id-23{
+	background-color: white;
+}
+
+.single-product{
+	background-color: white;
+}
+
+#main .ajax_add_to_cart {
+  visibility: hidden;
+}
+#main .ajax_add_to_cart:after {
+  content:'Tilføj til kurv'; 
+  visibility: visible;
+  display: block;
+  background-color: #ffaa55;
+  padding: 10px 12px 10px 12px;
+	border-radius: 6px;
+	margin: 0;
+
+}
+
+.woocommerce div.product form.cart .button{
+  visibility: hidden;
+}
+.woocommerce div.product form.cart .button:after {
+  content:'Tilføj til kurv'; 
+  visibility: visible;
+  display: block;
+  background-color: #ffaa55;
+	padding: 10px 12px 10px 12px;
+  border-radius: 6px;
+
+}
+
+.checkout-button{
+  visibility: hidden;
+}
+.checkout-button:after {
+  content:'Fortsæt til betaling'; 
+  visibility: visible;
+  display: block;
+  background-color: #ffaa55;
+	padding: 10px 12px 10px 12px;
+  border-radius: 6px;
+	text-transform: none;
+	
+}
+
+.coupon button{
+  visibility: hidden;
+}
+
+.coupon button:after {
+  content:'Anvend rabatkode'; 
+  visibility: visible;
+  display: block;
+  background-color: #ffaa55;
+	padding: 10px 12px 10px 12px;
+  border-radius: 6px;
+	
+}
+
+#coupon_code{
+	margin-top: 1rem;
+}
+
+.coupon{
+	padding-top: 0.5rem;
+}
+
+.wp-element-button{
+  visibility: hidden;
+	text-transform: none;
+}
+
+.wp-element-button:after {
+  content:'Opdater kurv'; 
+  visibility: visible;
+  display: block;
+  background-color: #ffaa55;
+	padding: 10px 12px 10px 12px;
+  border-radius: 6px;
+	
+}
+
+.ast-site-header-cart i.astra-icon::before{
+	color: white;
+}
+
+body.ast-theme-transparent-header .ast-site-header-cart .ast-addon-cart-wrap i.astra-icon::after{
+	color: white;
+}
+
+.wpforms-submit{
+	background-color: #ffaa55
+}
+
+.wpforms-submit:hover{
+	background-color: #ffaa55
+}
+
+@media (min-width: 922px){
+	.menu-item-1036{
+		display: none;
+}
+}
+
+.ast-site-title-wrap{
+	display: none;
+}
+
+
+.single-product .quantity{
+	padding-top: 1.65rem;
+}
+.single-product p{
+	max-width: 705px;
+}
+
+
+a{
+	transition: transform .2s;
+	
+}
+a:hover{
+	
+
+transform: scale(1.04);
+	}
